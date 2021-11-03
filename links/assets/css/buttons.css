@@ -162,8 +162,7 @@ button {
   padding: 1em 2em;
   backdrop-filter: blur(0.3em);
 }
-button:hover,
-button:focus {
+button:hover {
   border-radius: 8px;
   border-color: var(--color);
 

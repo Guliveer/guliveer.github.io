@@ -159,7 +159,7 @@ body {
 button {
   color: var(--color);
   transition: 0.3s;
-  border-radius: 100px;
+  border-radius: 30px;
   width: auto;
 
   background: rgba(0, 0, 0, 0.25);
@@ -170,14 +170,16 @@ button {
   margin: 0.5em;
   padding: 1em 1.5em;
   backdrop-filter: blur(0.3em);
+  text-shadow: 2px 3px 5px #000;
 }
 button:hover {
-  border-radius: 8px;
+  border-radius: 7px;
   border-color: var(--color);
 
   color: var(--color);
   font-weight: 800;
   letter-spacing: 0.4em;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0);
 
   /* From "Raise" */
   box-shadow: 0 0 1em rgba(0, 0, 0, 0.5), inset 0 -3.25em 0 0 var(--hover), 0 0.6em 0.5em -0.4em var(--hover);

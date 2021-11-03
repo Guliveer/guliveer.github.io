@@ -163,7 +163,7 @@ button {
   width: auto;
 
   background: rgba(0, 0, 0, 0.25);
-  border: 2px solid;
+  border: 3px solid;
   border-color: rgba(255, 255, 255, 0);
   font: inherit;
   line-height: 1;

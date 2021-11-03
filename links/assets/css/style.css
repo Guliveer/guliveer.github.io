@@ -1,0 +1,43 @@
+:root {
+  --main: #fff;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: url("../img/background.png") top right no-repeat;
+  background-size: cover;
+  position: relative;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+
+  /* Scrolling */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  overflow: hidden;
+
+  /* Cursor */
+  cursor: default;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+}
+
+/* Scrollbar (again) */
+body::-webkit-scrollbar {
+  display: none;
+}
+
+a,
+a:hover,
+button {
+  text-decoration: none;
+  cursor: pointer !important;
+}

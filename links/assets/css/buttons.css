@@ -74,10 +74,20 @@
   content: "Discord";
   --hover: rgba(88, 101, 242);
 }
+.github,
+.github::before {
+  content: "GitHub";
+  --hover: #333;
+}
 .instagram,
 .instagram::before {
   content: "Instagram";
   --hover: #fbad50;
+}
+.spotify,
+.spotify::before {
+  content: "Spotify";
+  --hover: #1db954;
 }
 .steam,
 .steam::before {

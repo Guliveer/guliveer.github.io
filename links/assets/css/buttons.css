@@ -159,7 +159,7 @@ body {
 button {
   color: var(--color);
   transition: 0.3s;
-  border-radius: 30px;
+  border-radius: 25px;
   width: auto;
 
   background: rgba(0, 0, 0, 0.25);
@@ -173,7 +173,7 @@ button {
   text-shadow: 2px 3px 5px #000;
 }
 button:hover {
-  border-radius: 7px;
+  border-radius: 10px;
   border-color: var(--color);
 
   color: var(--color);

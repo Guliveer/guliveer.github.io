@@ -23,11 +23,24 @@
 		min-width: 80vw;
 	}
 }
+
 @media (hover) {
 	button {
 		transition: 300ms ease !important;
 	}
 }
+
+/* .neon-button {
+	font-size: 4rem;
+	display: inline-block;
+	cursor: pointer;
+	text-decoration: none;
+	color: var(--clr-neon);
+	border: currentColor 0.125em solid;
+	padding: 0.25em 1em;
+	border-radius: 0.25em;
+	text-shadow: 0 0 0.125em white, 0 0 0.25em currentColor;
+} */
 
 button {
 	transition: 0ms linear;
@@ -67,13 +80,16 @@ body {
 body::-webkit-scrollbar {
 	display: none;
 }
+
 .buttons ul {
 	list-style: none;
 }
+
 /* .buttons ul li {
 	display: flex;
 	align-items: center;
 } */
+
 a,
 a:hover,
 button {
@@ -82,6 +98,7 @@ button {
 	display: inline-block;
 	text-align: center;
 }
+
 button {
 	cursor: pointer !important;
 	color: var(--color);
@@ -99,6 +116,7 @@ button {
 	backdrop-filter: blur(0.3em);
 	text-shadow: 2px 3px 5px #000;
 }
+
 button:hover,
 button:focus {
 	/* letter-spacing: 0.3em; */
@@ -112,6 +130,8 @@ button:focus {
 	box-shadow: 0 0 1em rgba(0, 0, 0, 0.5), inset 0 -3.25em 0 0 var(--hover), 0 0.6em 0.5em -0.4em var(--hover);
 	transform: translateY(-0.5rem);
 	transform: scale(1.23);
+	position: relative !important;
+	z-index: 999999 !important;
 }
 
 button:hover div.buttons {

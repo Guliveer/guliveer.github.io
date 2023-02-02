@@ -414,7 +414,7 @@ body.is-instant:after {
 .buttons.style1 li a:hover {
 	background-color: #0077b5;
 	color: #fff;
-	box-shadow: 0 0 0.3rem -0.05rem black, 0 0 0 0.25rem white, 0.3rem 0.32rem 1.8rem rgba(0, 0, 0, 0.6);
+	box-shadow: 0 0 0.3rem -0.075rem black, 0 0 0 0.25rem white, 0.3rem 0.32rem 1.8rem rgba(0, 0, 0, 0.6);
 }
 .buttons.style1 li a svg {
 	display: block;

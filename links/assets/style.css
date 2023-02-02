@@ -406,10 +406,15 @@ body.is-instant:after {
 	font-size: 1em;
 	font-weight: 600;
 	border-radius: 2.5rem;
-	box-shadow: 0.3rem 0.32rem 1.5rem rgba(0, 0, 0, 0.4);
+	box-shadow: 0 0 0 0 black, 0 0 0 0 white, 0.3rem 0.32rem 1.5rem rgba(0, 0, 0, 0.4);
 	flex-direction: row-reverse;
 	justify-content: flex-end;
-	transition: transform 0.25s ease, color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+	transition: transform 0.1s ease, color 0.2s ease, background-color 0.2s ease, box-shadow 0.3s ease !important;
+}
+.buttons.style1 li a:hover {
+	background-color: #0077b5;
+	color: #fff;
+	box-shadow: 0 0 0.3rem -0.05rem black, 0 0 0 0.25rem white, 0.3rem 0.32rem 1.8rem rgba(0, 0, 0, 0.6);
 }
 .buttons.style1 li a svg {
 	display: block;
@@ -437,10 +442,6 @@ body.is-instant:after {
 	background-position: 0% 0%;
 	background-repeat: repeat;
 	background-size: cover;
-}
-.buttons.style1 .button:hover {
-	background-color: #0077b5;
-	color: #fff;
 }
 .buttons.style1 li * {
 	-webkit-font-smoothing: antialiased;

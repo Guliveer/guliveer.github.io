@@ -491,7 +491,7 @@ body.is-instant:after {
 }
 @media (max-width: 480px) {
 	#wrapper {
-		justify-content: start;
+		display: block;
 	}
 	#main > .inner {
 		--spacing: 1.203125rem;
@@ -508,7 +508,7 @@ body.is-instant:after {
 }
 @media (max-width: 360px) {
 	#wrapper {
-		justify-content: start;
+		display: block;
 	}
 	#main > .inner {
 		--padding-horizontal: 1.5rem;

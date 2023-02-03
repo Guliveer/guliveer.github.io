@@ -490,8 +490,12 @@ body.is-instant:after {
 	}
 }
 @media (max-width: 480px) {
+	#wrapper {
+		justify-content: start;
+	}
 	#main > .inner {
 		--spacing: 1.203125rem;
+		padding-top: 0 !important;
 	}
 	.buttons.style1 {
 		flex-direction: column;
@@ -503,6 +507,9 @@ body.is-instant:after {
 	}
 }
 @media (max-width: 360px) {
+	#wrapper {
+		justify-content: start;
+	}
 	#main > .inner {
 		--padding-horizontal: 1.5rem;
 		--padding-vertical: 2.625rem;

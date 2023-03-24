@@ -412,7 +412,7 @@ body.is-instant:after {
 	transition: transform 0.1s ease, color 0.2s ease, background-color 0.2s ease, box-shadow 0.3s ease !important;
 }
 .buttons.style1 li a:hover {
-	background-color: #0077b5;
+	background-color: var(--color, #1a1a24);
 	color: #fff;
 	box-shadow: 0 0 0.3rem -0.075rem black, 0 0 0 0.25rem white, 0.3rem 0.32rem 1.8rem rgba(0, 0, 0, 0.6);
 }
